@@ -1,6 +1,6 @@
 {
 	"name": "ai_summarizer",
-	"private": true,
+	"private": false,
 	"version": "0.0.0",
 	"type": "module",
 	"homepage": "https://bsserikbay.github.io/ai_summarizer",
