@@ -22,8 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-<<<<<<< HEAD
+
+.history
 
 .env
-=======
->>>>>>> 87b9c3ca8ca69ef76b472900772f2c90db6c00a5
+
