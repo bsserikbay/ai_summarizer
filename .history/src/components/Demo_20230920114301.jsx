@@ -11,13 +11,9 @@ const Demo = () => {
 	const [getSummary, { error, isFetcing }] = useLazyGetSummaryQuery();
 
 	const handleSubmit = async e => {
-		e.preventDefault();
 		const { data } = await getSummary({ articleUrl: article.url });
 		if (data?.summary) {
 			const newArticle = { ...article, summary: data.summary };
-
-			setArticle(newArticle);
-			console.log(newArticle);
 		}
 	};
 	return (
