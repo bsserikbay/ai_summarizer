@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState, useEffect } from "react";
 import { copy, linkIcon, loader, tick } from "../assets";
 import { useLazyGetSummaryQuery } from "../services/article";
@@ -45,3 +46,16 @@ const Demo = () => {
 };
 
 export default Demo;
+=======
+import React from 'react'
+
+const Demo = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default Demo
+>>>>>>> 87b9c3ca8ca69ef76b472900772f2c90db6c00a5
